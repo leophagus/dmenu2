@@ -1,0 +1,2 @@
+#!/bin/sh
+echo   "firefox,☎firefox\naterm -e alsamixer,♥alsamixer\nxcalc,☮Calculator\nnvidia-settings,☺nVidia\nzathura,⌘PDF Viewer\nhardinfo,⌨HW Info\naterm -e mocp,♩♪♫mocp♫\naterm -e ranger,☢ranger☢" | dmenu "$@" | ${SHELL:-"/bin/sh"} &
